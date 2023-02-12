@@ -1,0 +1,28 @@
+<main id="conteudo">
+  <div style="width:100%; margin:10px;">
+  <h2 style="display:inline;">Novo Produto</h2><hr/>
+  <form (submit)="incluir()">
+
+  <label for="codigo">Titulo:</label>
+  <input type="text" name="codigo" 
+  [(ngModel)]="produto.codigo"><br/>
+  
+  <label for="nome">Resumo:</label>
+  <input type="text" name="nome" 
+  style="width: 170px; height: 80px"
+  [(ngModel)]="produto.nome"><br/>
+  
+  <label for="quantidade">Editora</label>
+  <input type="text" name="quantidade" 
+  [(ngModel)]="produto.quantidade"><br/>
+
+  
+  <label for="codigo">Autores:</label>
+  <input type="text" name="codigo"><br/>
+
+  
+  <button type="submit">Incluir</button>
+  </form>
+  </div>
+ </main>
+ 
