@@ -1,0 +1,26 @@
+<main id="conteudo">
+    <div style="width:100%; margin:10px;">
+    <h2 style="display:inline;">Listagem de Livros</h2>
+    <button style="float:right"
+    (click)="incluir()">Novo Livro</button><hr/>
+    
+    </div>
+
+
+    <div class="container">
+    <div class="pnlProduto" *ngFor="let produto of produtos">
+    <h3>Livro:</h3> {{produto.codigo}}<br/>
+    <h3>Resumo:</h3> {{produto.nome}}<br/>
+    <h3>Editora:</h3> {{produto.quantidade}}<br/>
+    <h3>Autores:</h3> {{produto.Autores}}<br/>
+    
+    <button (click)="excluir(produto.codigo)">Excluir</button>
+
+    
+    </div>
+    </div>
+   </main>
+
+   
+   
+   
