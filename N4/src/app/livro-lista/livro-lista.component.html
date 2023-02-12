@@ -1,0 +1,19 @@
+
+
+
+    <div class="container">
+    <div class="pnlProduto" *ngFor="let produto of produtos">
+    Livro: {{produto.codigo}}<br/>
+    Resumo: {{produto.nome}}<br/>
+    Editora: {{produto.quantidade}}<br/>
+    Autores: {{produto.Autores}}<hr/>
+    <button (click)="excluir(produto.codigo)">Excluir</button>
+
+    
+    </div>
+    </div>
+  
+
+   
+   
+   
