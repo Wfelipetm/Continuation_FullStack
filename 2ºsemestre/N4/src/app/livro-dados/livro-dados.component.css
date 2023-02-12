@@ -1,0 +1,45 @@
+div{
+    color:red
+    
+    
+}
+
+div {
+    padding: 30px;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  div {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  div {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 100px;
+    font-weight: bold;
+  }
+  
+  div {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  div{
+    float: right;
+  }
+  
+  div{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  div{
+    margin-bottom: 10px;
+  }
