@@ -3,8 +3,8 @@ import './App.css';
 
 //Componente
 import Header from './components/Header';
-import TaskForm from './components/TaskForm';
-import TaskList from './components/TaskList';
+import TaskForm from './components/LivrosDados';
+import TaskList from './components/LivrosListas';
 
 //css
 import styles from './App.module.css'
