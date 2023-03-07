@@ -59,7 +59,7 @@ a {
 }
 
 .text-gradient {
-  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  background: linear-gradient(to right, #32383e, #32383e);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -67,7 +67,7 @@ a {
 }
 
 #header nav {
-  background-color: #340068;
+  background-color: #32383e;
   padding: 1em 0;
   width: 100%;
 }
