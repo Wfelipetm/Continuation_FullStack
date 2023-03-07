@@ -14,22 +14,22 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
-  it('should create the app', () => {
+  it('deve criar o app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'livros-angular'`, () => {
+  it(`deveria ter como titulo 'livros-angular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('livros-angular');
   });
 
-  it('should render title', () => {
+  it('deve renderizar o título', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('livros-angular app is running!');
+    expect(compiled.querySelector('.extensão de conteúdo')?.textContent).toContain('livros-angular app está correndo!');
   });
 });
