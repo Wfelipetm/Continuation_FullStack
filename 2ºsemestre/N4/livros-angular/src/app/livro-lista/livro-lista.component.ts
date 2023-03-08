@@ -28,7 +28,8 @@ export class LivroListaComponent implements OnInit {
     this.livros = this.servLivros.obterLivros();
   }
 
-  obterNome = (codEditora: number): string => {
-    return this.servEditora.getNomeEditora(codEditora);
+  obterNome = (codEditora: string): string => {
+    const codigoNumerico = parseInt(codEditora);
+    return this.servEditora.getNomeEditora(codigoNumerico);
   }
 }
