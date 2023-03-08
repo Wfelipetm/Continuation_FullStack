@@ -13,7 +13,7 @@
     <tr *ngFor="let livro of livros">
       <td>
         <p>{{livro.titulo}}</p>
-        <button class="btn btn-danger" (click)="excluir(livro.codigo)">Excluir</button>
+        <button type="button" class="btn btn-outline-danger" (click)="excluir(livro.codigo)">Excluir</button>
       </td>
       <td>{{livro.resumo}}</td>
       <td>{{obterNome(livro.codEditora)}}</td>
