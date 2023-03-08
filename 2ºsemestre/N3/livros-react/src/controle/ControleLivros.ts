@@ -3,21 +3,21 @@ import Livro from "../modelo/Livro";
 const livros : Array<Livro> = [{
     codigo: 1,
     codEditora: 1,
-    titulo: "Use a Cabeça: Java",
-    resumo: "Use a Cabeça! Java é uma experiência completa de aprendizado em programação orientada a objectos (OO) e Java.",
-    autores: ["Bert Bates", "Kathy Sierra"]
+    titulo: "Pense em Python",
+    resumo: "Se você quer aprender como programar, usar Python é uma ótima forma de começar. Este guia prático apresenta a linguagem passo a passo, começando com conceitos de programação básicos antes de chegar a funções, recursividade, estruturas de dados e design orientado a objeto. Esta edição e seu código de apoio foram atualizados para o Python 3.",
+    autores: ["BAllen B. Downey "]
 },{
     codigo: 2,
     codEditora: 2,
-    titulo: "Java como Progamar",
-    resumo: "Milhões de alunos e profissionais aprenderam programação e desenvolvimento de software com os livros Deitel",
-    autores: ["Paul Deitel", "HarveyDeitel"]
+    titulo: "Use a Cabeça! Python",
+    resumo: "O que você aprenderá com este livro? Deseja aprender a linguagem Python sem percorrer um longo caminho com manuais? Com o Use a Cabeça! Python, você entenderá rapidamente os fundamentos do Python trabalhando com estruturas de dados e funções predefinidas.",
+    autores: ["Paul Barry"]
 },{
     codigo: 3,
     codEditora: 3,
-    titulo: "Core Java for the Impatient",
-    resumo: "eaders familiar with Horstmanns original, two-volume Core Java” books Addison Wesley who are looking for a comprehensive, but condensed guide to all of the new features and functions of Java SE 9 will learn how these new features impact the language and core libraries.",
-    autores: ["CayHorstmann", "WallaceTavares"]
+    titulo: "Código limpo",
+    resumo: "Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim.O renomado especialista em software, Robert C. Martin, apresenta um paradigma revolucionário com Código limpo: Habilidades Práticas do Agile Software.",
+    autores: ["Robert C. Martin"]
 }];
 
 export default class ControleLivro {
