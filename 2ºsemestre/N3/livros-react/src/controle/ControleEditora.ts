@@ -1,14 +1,16 @@
 import Editora from "../modelo/Editora";
 
+
+
 const editoras : Array<Editora> = [{
     codEditora: 1,
-    nome: "Alta Books"
+    nome: "Novatec"
 },{
     codEditora: 2,
-    nome: "Pearson"
+    nome: "Alta Books"
 },{
     codEditora: 3,
-    nome: "Addison Wesley"
+    nome: "Alta Books"
 }];
 
 export default class ControleEditora {
