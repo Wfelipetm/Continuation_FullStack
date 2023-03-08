@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import ControleLivro from "./controle/ControleLivros";
 import ControleEditora from "./controle/ControleEditora";
+import './App.css';
 
 const controleLivros = new ControleLivro();
 const controleEditora = new ControleEditora();
@@ -13,7 +14,7 @@ const LinhaLivro = props => {
         <tr>
             <td>
                 <p>{livro.titulo}</p>
-                <button className="btn btn-danger pull-right" onClick={() => excluir(livro.codigo)}>Excluir</button>
+                <button type="button" class="btn btn-outline-danger" onClick={() => excluir(livro.codigo)}>Excluir</button>
             </td>
             <td>{livro.resumo}</td>
             <td>{nomeEditora(livro.codEditora)}</td>
@@ -43,7 +44,7 @@ const LivroLista = () => {
     }
 
     return (
-        <main>
+        <main class ="container">
             <h1>Catálogo de Livros</h1>
             <table className="table table-hover">
                 <thead className="table-dark">
