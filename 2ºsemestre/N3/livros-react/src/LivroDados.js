@@ -3,6 +3,7 @@ import Livro from "./modelo/Livro";
 import ControleLivro from "./controle/ControleLivros";
 import ControleEditora from "./controle/ControleEditora";
 import { useNavigate } from "react-router-dom";
+import './App.css';
 
 const controleLivros = new ControleLivro();
 const controleEditora = new ControleEditora();
@@ -33,7 +34,7 @@ const LivroDados = props => {
     };
 
     return (
-        <main>
+        <main class ="container">
             <h2>Dados do Livro</h2>
             <form onSubmit={incluir}>
                 <div className="form-group" >
